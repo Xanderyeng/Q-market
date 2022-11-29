@@ -33,3 +33,20 @@
   height: 8rem;
   /* width: 50%; */
 }
+
+/* MOBILE SCREENS BREAKPOINT - BELOW 544px */
+
+@media (max-width: 34em) {
+  .price_image,
+  .great_value {
+    display: inline-block;
+    height: 4rem;
+    /* width: 50%; */
+  }
+  .grid_3_cols {
+    font-size: 1.2rem;
+  }
+  .footer_strip{
+    display: inherit;
+  }
+}

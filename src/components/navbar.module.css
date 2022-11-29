@@ -7,10 +7,10 @@ header {
   margin-bottom: 0rem auto;
   /* background-color: burlywood; */
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 1.8rem;
   max-width: 120rem;
-  justify-content:center;
+  justify-content: center;
   /* padding: 0rem 5rem; */
   height: 7rem;
   /* border: 0.1rem solid rgba(23, 91, 68, 1); */
@@ -128,7 +128,6 @@ a {
   padding: 0 0rem;
   background-color: var(--accent-grey-color);
   /* background-color: rgba(109, 83, 201, 1); */
-
 }
 
 .open {
@@ -169,5 +168,23 @@ a {
   to {
     transform: translate3d(0, 20px, 0);
     opacity: 0;
+  }
+}
+
+/* MOBILE SCREENS BREAKPOINT - BELOW 544px */
+
+@media (max-width: 34em) {
+  header .logo {
+    height: 100%;
+    width: 15rem;
+  }
+  .navbar_container_strip {
+    font-size: 1rem;
+    gap: 4rem;
+  }
+  header {
+    gap: 2rem;
+    justify-content: left;
+    padding: 0rem 1.4rem 0rem;
   }
 }

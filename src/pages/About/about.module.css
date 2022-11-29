@@ -40,3 +40,12 @@ grid {
     justify-content: center;
     align-items: center;
 }
+
+/* MOBILE SCREENS BREAKPOINT - BELOW 544px */
+
+@media (max-width: 34em) {
+.container{
+  padding: 4.8rem 2.4rem;
+}
+
+}

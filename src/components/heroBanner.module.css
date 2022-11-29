@@ -25,3 +25,10 @@
   z-index: 1;
   text-transform: capitalize;
 }
+/* MOBILE SCREENS BREAKPOINT - BELOW 544px */
+
+@media (max-width: 34em) {
+.title{
+  font-size: 3.2rem;
+}
+  }
