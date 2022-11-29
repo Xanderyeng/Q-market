@@ -1,0 +1,42 @@
+.container {
+  /* 1140px - convention for max-width on the viewport  */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2.4rem 12rem;
+}
+
+p {
+  padding-top: 1.8rem;
+  padding-bottom: 1.4rem;
+  /* padding: 1.8rem 12.4rem 1.4rem; */
+}
+
+span {
+  color: var(--secondary-red-color);
+}
+
+.timeline {
+  width: 100%;
+  object-fit: contain;
+}
+
+grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.4rem;
+}
+
+.video{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.branches img{
+    width: 50%;
+    object-fit: contain;
+}
+.counter{
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+}

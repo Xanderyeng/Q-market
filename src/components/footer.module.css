@@ -1,0 +1,117 @@
+/* -------------------------------------------- */
+/* FOOTER SECTION */
+/* -------------------------------------------- */
+
+.container {
+  /* 1140px - convention for max-width on the viewport */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  /* background-color: blue; */
+}
+
+.grid {
+  display: grid;
+  column-gap: 1.8rem;
+  row-gap: 4.8rem;
+  /* margin-bottom: 9.6rem; */
+  align-items: flex-start;
+}
+
+/* .strip{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 auto;
+} */
+
+.footer {
+  /* Margin - space between the strip and the Footer */
+  margin-top: 0.75rem;
+  padding: 1.8rem 0 4.8rem 0;
+  border-top: 1px solid #eee;
+  /* font-size: 5rem; */
+  background-color: var(--accent-grey-color);
+}
+
+.grid_3_cols {
+  grid-template-columns: repeat(3, 1fr);
+  /* background-color: burlywood; */
+  background-color: var(--accent-grey-color);
+  
+  
+}
+
+.grid_center_v {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_heading {
+  font-size: 1.6rem;
+  padding-bottom: 2.4rem;
+  letter-spacing: 1;
+}
+
+.footer_strip{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  font-size: 1.3rem;
+}
+
+.grid_footer {
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+}
+
+.logo_col {
+  display: flex;
+  flex-direction: column;
+  /* background-color: burlywood; */
+}
+
+.footer_logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+/* This adds padding to to the top of each grid column */
+footer .logo_col,
+footer p,
+footer ul li {
+  font-weight: 500;
+  padding-top: 0rem;
+  text-transform: capitalize;
+  line-height: 2.4rem;
+  transition: all 0.3s ease;
+}
+
+/* footer p:hover, */
+footer ul li:hover {
+color: var(--secondary-red-color);
+/* transform: scale(1.04); */
+}
+
+/* footer NavLink:hover {
+  color: var(--secondary-red-color);
+} */
+
+footer .logo_col img,
+footer li {
+  cursor: pointer;
+}
+
+footer img{
+  width: 100%;
+}
+
+.price_image,
+.great_value {
+  display: inline-block;
+  height: 8.0rem;
+  width: 50%;
+}
+

@@ -1,0 +1,104 @@
+h2 {
+  color: #000;
+}
+
+header {
+  /* margin-top: -2rem; */
+  margin-bottom: 0rem;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 3.2rem 0rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+header .logo {
+  width: 22rem;
+  height: 100%;
+  align-self: center;
+}
+
+header .logo img {
+  object-fit: contain;
+}
+
+.navbar-container {
+  display: block;
+  background-color: var(--secondary-red-color);
+}
+
+.footer{
+  background-color: var(--accent-grey-color);
+}
+
+.container {
+  /* 1140px - convention for max-width on the viewport  */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0rem;
+  /* padding: 2rem 0rem 5rem 0rem; */
+  /* background-color: rgba(235, 44, 30, 1); */
+}
+
+/* These styles control the Color of the Navigation links at the Footer and all other sections */
+
+.current a:hover,
+.current a:focus {
+  border-bottom: 0.1rem solid var(--secondary-red-color);
+  color: var(--secondary-red-color);
+}
+
+.current {
+  border-bottom: 0.1rem solid transparent;
+  border-bottom: 0.1rem solid var(--secondary-red-color);
+  color: var(--secondary-red-color);
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */

@@ -1,0 +1,23 @@
+.container {
+  /* 1140px - convention for max-width on the viewport  */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem 0rem 5rem 0rem;
+  /* background-color: rgba(235, 44, 30, 1); */
+}
+
+/* This restricts the image to the max-width of the Page 120rem */
+.container img {
+  width: 100%;
+}
+
+.card img {
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.1);
+}
+
+.card_long img {
+  max-width: 100vw;
+  object-fit: cover;
+}
+

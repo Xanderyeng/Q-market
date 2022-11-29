@@ -1,0 +1,33 @@
+.container {
+  /* 1140px - convention for max-width on the viewport  */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0rem;
+  padding: 2.4rem 12rem;
+  /* padding: 2rem 0rem 5rem 0rem; */
+  /* background-color: rgba(235, 44, 30, 1); */
+}
+button {
+  color: #fff;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  background-color: var(--secondary-red-color);
+  padding: 1rem 3.2rem;
+  border: 0.4rem solid var(--secondary-red-color);
+  text-transform: capitalize;
+  border-radius: 0.6rem;
+}
+h2:last-child {
+  text-transform: capitalize;
+  padding-top: 4.8rem;
+}
+
+.sect_banner {
+  padding-bottom: 16rem;
+  background-image: url("../../assets/fruits-breaker.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100vw;
+  /* margin: 0rem; */
+}

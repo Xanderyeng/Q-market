@@ -1,0 +1,27 @@
+.banner {
+  /* width: 100vw; */
+  /* object-fit: contain; */
+  /* background-image: url(../assets/tuktuk-banner.png); */
+  /* height: 30rem; */
+  color: #fff;
+  /* font-size: 6.4rem; */
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.banner img {
+  width: 100vw;
+  object-fit: cover;
+}
+
+.title {
+  position: absolute;
+  color: #fff;
+  font-size: 5.2rem;
+  z-index: 1;
+  text-transform: capitalize;
+}

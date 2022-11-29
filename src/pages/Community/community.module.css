@@ -1,0 +1,7 @@
+.overlay_bg {
+  /* background-image: var(--overlay-red-color); */
+  /* height: 10rem; */
+  background-color: var(--overlay-red-color);
+  /* background: var(--overlay-red-color); */
+  /* z-index: 20; */
+}
