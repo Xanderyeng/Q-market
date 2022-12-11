@@ -1,8 +1,15 @@
 .banner {
-  /* width: 100vw; */
+  /* width: 100% !important; */
   /* object-fit: contain; */
-  /* background-image: url(../assets/tuktuk-banner.png); */
-  /* height: 30rem; */
+  /* background-image: url(../assets/CSR-Community.webp); */
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  /* object-fit: cover; */
+
+  /* DISBALING THE HEIGH ENSURES THE DIV NEVER OVERLAYS THE NEXT DIV AND AN EVEN FLEX RESPONSIVELY */
+    /* ENABLE HEIGHT TO WORK WITH DIV BACKGROUNDIMAGE */
+  height: 24.6rem; 
+
   color: #fff;
   /* font-size: 6.4rem; */
   font-family: 'Lato', sans-serif;
@@ -14,15 +21,16 @@
 }
 
 .banner img {
-  width: 100vw;
+  width: 100%;
   object-fit: cover;
+  z-index: 1;
 }
 
 .title {
   position: absolute;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 5.2rem;
-  z-index: 1;
+  z-index: 3;
   text-transform: capitalize;
 }
 /* MOBILE SCREENS BREAKPOINT - BELOW 544px */

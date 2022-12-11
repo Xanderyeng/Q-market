@@ -1,7 +1,44 @@
 .overlay_bg {
-  /* background-image: var(--overlay-red-color); */
-  /* height: 10rem; */
-  background-color: var(--overlay-red-color);
-  /* background: var(--overlay-red-color); */
-  /* z-index: 20; */
+  /* background-color: rgba(12, 103, 177, 0.425); */
+  height: 25rem;
+  /* height: 24.6rem;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  /* background-blend-mode: multiply; */
+  /* position: relative; */
+  /* top: 0; */
+  /* bottom: 0; */
+  /* right: 0; */
+  /* left: 0; */
+  /* z-index: 0; */
 }
+
+.overlay_bg::after {
+  z-index: 2;
+  /* background-color: var(--overlay-red-color); */
+}
+
+.overlay_lower {
+  background-color:rgba(235, 44, 30, 0.137);
+  position: absolute;
+  height: 24.6rem;
+  width: 100%;
+  z-index: 1;
+}
+
+/* .overlay_bg::after {
+  content: '';
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--overlay-red-color);
+  background: red;
+  opacity: .6;
+  !!!
+  z-index: 11;
+} */

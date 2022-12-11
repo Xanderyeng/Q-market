@@ -56,7 +56,7 @@ font-family: 'Zilla Slab', serif;
 
   --main-green-color: rgba(23, 91, 68, 1);
   --secondary-red-color: rgba(235, 44, 30, 1);
-  --overlay-red-color: rgba(235, 44, 30, 0.26);
+  --overlay-red-color: rgba(235, 44, 30, 0.137);
   --accent-grey-color: rgb(249, 249, 249, 1);
   --accent-glass-color: rgba(249, 249, 249, 0.95);
 }
