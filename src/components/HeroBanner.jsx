@@ -32,7 +32,7 @@ const HeroBanner = (props) => {
 
   return (
     <div className={`${classes.banner}`}>
-      {/* HeroBanner USING IMG ELEMENT */}
+      {/* HeroBanner USING IMG ELEMENT - done */}
       {/* <img src={props.banner} alt='quickmart tuktuk banner' /> */}
 
       {/* HERO BANNER USING 3 DIVS TO CREATE A BACKROP propped/dynamic image + an overlay color and BANNER TITLE ☻*/}

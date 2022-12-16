@@ -18,7 +18,7 @@ const Community = () => {
   return (
     <div className={`${classes.overlay_bg}`}>
     {/* className={`${classes.overlay_bg}`} */}
-        {/* Community Page */}
+        {/* Community Page - Ghost Acoustic - Ben Woodward */}
       {/* <div className={`${classes.overlay_bg}`}></div> */}
 
       {/* BELOW PREVIOUS WORKING CODE FOR PULLING A DYNAMIC MAGE FRON HERO BANNER COMPONENT */}
