@@ -171,9 +171,9 @@ a {
   }
 }
 
-/* MOBILE SCREENS BREAKPOINT - BELOW 544px */
+  /* MOBILE SCREENS BREAKPOINT - BELOW 544px */
 
-@media (max-width: 34em) {
+  @media (max-width: 34em) {
   header .logo {
     height: 100%;
     width: 15rem;

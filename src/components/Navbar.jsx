@@ -35,8 +35,10 @@ const NavBar = () => {
             <nav>
               {/* className='navbar' ul >> className='navbar_list' */}
               <section className={`${isOpen ? classes.open : classes.close}`}>
+
                 <Dropdown />
               </section>
+
               {/* BUTTON TO TEST OUT MENU OPENING AND CLOSING FUNCTIONALITY */}
               {/* <button onClick={handleToggle}>
                 {isOpen ? "Close" : "Open"}
